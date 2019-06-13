@@ -10,12 +10,7 @@
 
 ### Mac
 
-
-
 ### windows
-=======
-### installation
-
 ### config git globally
 
 `git config —-global user.name "RyanRen"`
@@ -31,6 +26,20 @@
 `git pull —all`
 
 `git fetch origin master`
+
+### move a file to staging area for committing
+
+`git add XXXX` or `git add -A` for all files
+
+### remove files from staging area
+
+`git reset XXX`
+
+### check status
+
+`git status`
+
+
 
 ### 问题
 
