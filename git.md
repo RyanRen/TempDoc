@@ -11,17 +11,19 @@
 ### Mac
 
 ### windows
-### config git globally
+## config git globally
 
 `git config —-global user.name "RyanRen"`
 
 `git config —global user.email "yan.r@163.com"`
 
-### create a repository on github
+## create a repository on github
 
-### initialize a local repository
+## initialize a local repository
 
-### fetch latest from remote repository
+`git init`
+
+## fetch latest from remote repository
 
 `git pull —all`
 
@@ -38,6 +40,26 @@
 ### check status
 
 `git status`
+
+## create a local branch
+
+`git branch name-of-branch`
+
+`git branch -a`
+
+## switch working on a branch
+
+`git checkout name-of-branch`
+
+## push local branch to remote repository
+
+`git push -u origin name-of-branch`
+
+## delete a local branch & delete a remote branch
+
+`git branch -d name-of-branch`
+
+`git push origin --delete name-of-branch`
 
 
 
